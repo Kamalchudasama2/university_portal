@@ -96,8 +96,8 @@ global.query = 'INSERT INTO employee (empname, email,emppassword) values ("' + e
       var transporter = nodemailer.createTransport({
         service: "Gmail",
         auth: {
-          user: "kamalchudasama6@gmail.com",
-          pass: "tlhgirjzaustnfug"
+          user: "",   //your email, from which mail will be sent
+          pass: ""   //your gmail password which will going to be around 15 letters
         }
       });
 
